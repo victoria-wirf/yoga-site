@@ -1,3 +1,64 @@
-body {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Rosarivo&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
 }
+
+body {
+    font-family: Raleway, sans-serif;
+    font-weight: 300;
+    color:black
+    
+}
+
+/* headings and logo */
+
+h1, h2 {
+    font-family: Rosarivo, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: black;
+    
+}
+
+#logo {
+    float: left;
+    font-size: 250%;
+
+}
+
+/* navigation links */
+
+#menu {
+    font-size: 200%;
+    letter-spacing: 3px;
+    
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+#menu, #logo {
+    line-height: 75px;
+
+
+}
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+
+}
+
